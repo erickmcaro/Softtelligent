@@ -14,7 +14,6 @@ addons:
 script:
   - npm install
   - npm run build
-  - bash sonar.sh
     # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
 deploy:
