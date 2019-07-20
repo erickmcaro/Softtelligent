@@ -6,9 +6,17 @@ branches:
     - master
 before_script:
   - npm install -g @angular/cli
+addons:
+  sonarcloud:
+    organization: "ecarogonzale82-github"
+    token:
+      secure: "8b36942c419878dff51c70e47578bdad43a7c8fc" # encrypted value of your token
 script:
   - npm install
   - npm run build
+  - bash sonar.sh
+    # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
 deploy:
   skip_cleanup: true
   provider: firebase
