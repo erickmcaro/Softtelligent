@@ -1,0 +1,130 @@
+<!-- Sidebar Widget layout -->
+<div class="sidebar-widget section-gap">
+   <div class="container">
+      <div class="card-columns">
+         <div class="">
+            <div class="card border-bottom-dash widget">
+               <div class="card-body">
+                  <h4 class="mb-3"> Search </h4>
+                  <searchNow></searchNow>
+               </div>
+            </div>
+         </div>
+         <!-- search now widget closed -->
+         <div class="widget card border-bottom-dash">
+            <categoriesList [categories]="categories"></categoriesList> 
+         </div> 
+         <!-- Categories widget closed -->
+         <div class="widget card border-bottom-dash">
+            <popularPosts [popularPosts]="popularPosts"></popularPosts>
+         </div>
+         <!-- Popular post widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="social-share mb-3">
+               <socialShareList [socialShare]="socialShare"></socialShareList>
+            </div>
+         </div>
+         <!-- Social Share widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="social-share mb-3">
+               <socialTags [Socials]="socialShare"></socialTags>
+            </div>
+         </div>
+         <!-- Social icon widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="recent-comment mb-3">
+               <recentCommentsWithDate [recentComments]="recentComments"></recentCommentsWithDate>
+            </div>
+         </div>
+         <!-- Recent Comment widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="recent-comment mb-3">
+               <recentCommentsWithIcon [recentComments]="recentComments"></recentCommentsWithIcon>
+            </div>
+         </div>
+         <!-- Recent Comment icon widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="subscribe mb-3 border border-rad">
+               <subsribeSidebar></subsribeSidebar>
+            </div>
+         </div>
+         <!-- Subscribe closed -->
+         <div class="widget card border-bottom-dash">
+            <instagramGallary [InstagramImages]="instagramGallary"></instagramGallary>
+         </div>
+         <!-- Instagram Gallery widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <tabStructure [tabsContent]="tabContent"></tabStructure>
+            </div>
+         </div>
+         <!-- Tab post Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="contact-widget mb-3">
+               <contactUsList [contact]="contactInfo"></contactUsList>
+            </div>
+         </div>
+         <!-- Contact list widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="contact-form mb-3">
+               <contactUs2 [contact]="contactInfo"></contactUs2>
+            </div>
+         </div>
+         <!-- Contact Form widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="cart-widget mb-3">
+               <cart [cart]="cartInfo"></cart>
+            </div>
+         </div>
+         <!-- Cart widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <latestTweets [tweets]="tweets"></latestTweets>
+            </div>
+         </div>
+         <!-- Latest tweets Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">               
+               <category2 [categories]="categories"></category2>
+            </div>
+         </div>
+         <!-- Categories Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <tags1 [tags]="tags"></tags1>
+            </div>
+         </div>
+         <!-- Tags Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <testimonial1 [testimonialContent]="testimonial"></testimonial1>
+            </div>
+         </div>
+         <!-- Testimonial-1 Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <testimonial2 [testimonial2Content]="testimonial"></testimonial2>
+            </div>
+         </div>
+         <!-- Testimonial-2 Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <archive [archive]="archive"></archive>
+            </div>
+         </div>
+         <!-- Archive Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <tags2 [tags]="tags"></tags2>
+            </div>
+         </div>
+         <!-- Tags Widget closed -->
+         <div class="widget card border-bottom-dash">
+            <div class="mb-3">
+               <aboutAuthor [aboutAuthor]="authorInfo"></aboutAuthor>
+            </div>
+         </div>
+         <!-- Author Widget closed -->
+      </div><!-- row closed -->
+   </div>
+</div><!--sidebar widget closed --> 

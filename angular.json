@@ -28,9 +28,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css",
+              "src/assets/scss/style.scss",
+              "src/assets/animate/animate.css",
+              "src/assets/slick/slick.css",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/ionicons/dist/css/ionicons.css",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/slick/slick.js",
+              "node_modules/hammerjs/hammer.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,9 +101,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css",
+              "src/assets/scss/style.scss",
+              "src/assets/animate/animate.css",
+              "src/assets/slick/slick.css",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/ionicons/dist/css/ionicons.css",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/slick/slick.js",
+              "node_modules/hammerjs/hammer.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"
+            ]
           }
         },
         "lint": {

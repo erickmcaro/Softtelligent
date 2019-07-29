@@ -1,0 +1,79 @@
+<div class="page-main-container">
+   <!-- Service grid -->
+   <div class="service section-gap">
+      <div class="container">
+         <div class="section-title-wrapper">
+           <div class="row">
+               <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2>Software Solutions For Your Business Needs.</h2>
+                  <p class="mb-0">Best solutions from worlds class professionals developed with latest trends and technologies. </p>
+               </div>
+           </div>
+         </div>
+         <div class="row" serviceGrid [serviceGridContent]="services"></div>
+      </div>
+   </div>
+   <!-- Video section -->
+   <div class="chk-video-section section-gap bg-light">
+      <div class="container">
+        <div class="row" chkVideo [videoContent]="videoContent">
+        </div>
+      </div>
+   </div>
+   <!-- Featured section -->
+   <div class="mob-feature">
+      <div class="section-gap">
+         <div class="container">
+            <div class="section-title-wrapper">
+              <div class="row">
+                  <div class="col-sm-12 col-md-10 mx-auto text-center text-white">
+                     <h2 class="text-white"> Mobile Applications </h2>
+                     <p class="mb-0"> Complete solution tailored for your business.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="row" mobileFeatured [mobileFeatured]="mobileFeatured"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Posts grid -->
+   <div class="post-section bg-light section-gap">
+      <div class="container">
+         <div class="section-title-wrapper">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2> Latest Blog Posts </h2>
+                </div>
+            </div>
+         </div>
+         <div class="card-deck">
+            <div class="row" postGrid [postGridContent]="posts"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Subscribe section -->
+   <div subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
+   <!-- Contact information section -->
+   <div class="contact-section section-gap">
+      <div class="container">
+         <div class="section-title-wrapper">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2>Contact Information  </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row" homeContact [contact]="contact"></div>
+      </div>
+   </div>
+   <!-- Send message section -->
+   <div class="send-msg section-gap style-form">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
+                  <div sendMessage></div>
+               </div>
+            </div>
+         </div>
+   </div>
+</div>

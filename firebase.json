@@ -1,18 +1,16 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/SofttelligentSite",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [{
-      "source": "/public/**",
-      "destination": "/public.html"
-    },
-    {
-      "source": "**",
-      "destination": "/index.html"
-    }]
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
