@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { TestimonialRoutes } from './testimonial.routing';
-import { WidgetsModule } from '../widgets/widgets.module';
+import { WidgetsModule } from '../../shared/widgets/widgets.module';
 
 import { Testimonial1Component } from './testimonial1/testimonial1.component';
 import { Testimonial2Component } from './testimonial2/testimonial2.component';

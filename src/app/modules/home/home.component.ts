@@ -3,7 +3,7 @@ import { ChkService } from '../../core/service/chk.service';
 declare var $ : any;
 
 @Component({
-  selector: 'home',
+  selector: 'softtelligent-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })

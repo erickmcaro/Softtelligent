@@ -1,11 +1,11 @@
 import { Component, OnInit, HostListener, Inject, } from '@angular/core';
-import { MenuItems } from '../core/menu/menu-items/menu-items';
+import { MenuItems } from '../../core/menu/menu-items/menu-items';
 import { Router } from '@angular/router';
-import { ClickOutside } from '../core/directive/click-outside.directive';
+import { ClickOutside } from '../../core/directive/click-outside.directive';
 declare var $: any;
 
 @Component({
-  selector: '[angly-menu]',
+  selector: '[softtelligent-menu]',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
 })

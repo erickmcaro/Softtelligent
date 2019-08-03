@@ -24,11 +24,10 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/favicon.ico",
+              "src/assets/img/Softtelligent.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
               "src/assets/scss/style.scss",
               "src/assets/animate/animate.css",
               "src/assets/slick/slick.css",
@@ -97,11 +96,10 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
+              "src/assets/img/Softtelligent.ico.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
               "src/assets/scss/style.scss",
               "src/assets/animate/animate.css",
               "src/assets/slick/slick.css",

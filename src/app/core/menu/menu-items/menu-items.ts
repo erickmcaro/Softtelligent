@@ -27,18 +27,19 @@ const HEADERMENUITEMS = [
       type:"link"
    },
 
-         { state: "about", name: "About", type:"link"},
-         { state: "contact", name: "Contact", type:"link"},
-         { state: "support", name: "Support", type:"link"},
-   {
+      //   { state: "about", name: "About", type:"link"},
+     //    { state: "contact", name: "Contact", type:"link"},
+     //    { state: "support", name: "Support", type:"link"},
+  /* {
       state:"",
       name:"Blog",
       type:"link"
    }
+   */
    ];
 
 const FOOTERMENU = [
-   {
+ /*  {
       state: "home",
       name: "Home",
       type:"link"
@@ -68,6 +69,7 @@ const FOOTERMENU = [
       name:"About",
       type:"link"
    }
+   */
 ]
 
 const EXPLOREMENU = [
@@ -75,7 +77,7 @@ const EXPLOREMENU = [
       state: "home",
       name: "Dashboard",
       type:"link"
-   },
+   }/*,
    {
       state: "sign-up",
       name: "Sign Up",
@@ -90,11 +92,11 @@ const EXPLOREMENU = [
       state: "terms-conditions",
       name: "Terms & Conditions ",
       type:"link"
-   }
+   }*/
 ];
 
 const FOOTERMENU2 = [
-   {
+  /* {
       state: "home",
       name: "Home",
       type:"link"
@@ -129,6 +131,7 @@ const FOOTERMENU2 = [
       name:"Search",
       type:"link"
    }
+   */
 ];
 
 @Injectable()

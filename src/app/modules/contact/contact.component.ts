@@ -3,7 +3,7 @@ import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../core/service/chk.service';
 
 @Component({
-  selector: 'contact',
+  selector: 'softtelligent-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

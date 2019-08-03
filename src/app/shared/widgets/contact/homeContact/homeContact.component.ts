@@ -5,15 +5,15 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: '[homeContact]',
+  selector: '[softtelligent-homeContact]',
   templateUrl: './homeContact.component.html',
   styleUrls: ['./homeContact.component.scss']
 })
 export class HomeContactComponent implements OnInit {
 
    @Input() contact : any;
-   lat: number = 30.67995;
-	lng: number = 76.72211;
+   lat: number = 18.3414888;
+	lng: number = -67.2550643;
 
    constructor() { }
 

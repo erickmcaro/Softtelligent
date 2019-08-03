@@ -1,13 +1,10 @@
 {
   "data":{
       "video_content":{
-         "heading":"How It Works",
-         "short_content":"Angly is developed with easy component and file structure which is easy to modify or extend with new components.",
+         "heading":"Enterprise Software Development",
+         "short_content":"Need a solid software foundation for your business? Uncoordinated mobile apps and software stress out your employees and impede your productivity? Leverage our decade-long expertise in enterprise software development, API integration, modernising legacy systems, and consolidating app portfolios.",
          "content":[
-            "Select a page template.",
-            "Configure API url for content.",
-            "Map your data fields.",
-            "Enjoy dynamic pages with live content."
+          
          ],
          "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
       },
@@ -15,20 +12,20 @@
          {
             "icon_path":"ion-ios-crop-outline",
             "icon_class":"text-info",
-            "title":"Fully Responsive Design",
-            "content":"Fully responsive design on all browsers and mobiles devices without hiding any element."
+            "title":"Limited Complexity",
+            "content":"People don’t like complexity at the best of times, even less so on a small screen. We’ll help make sure your app makes a current process simpler, otherwise people won’t use it."
          },
          {
             "icon_path":"ion-ios-color-wand-outline",
             "icon_class":"text-success",
-            "title":"30+ Page Templates",
-            "content":"30+ Beautifully designed page templates for your blog, portfolio, gallery and any other type of content."
+            "title":"Engaging UX",
+            "content":"This is closely related with simplicity; if the app doesn’t have a great user experience and make it easier for the customer to do something, then no-one’s going to use it more than once."
          },
          {
             "icon_path":"ion-ios-albums-outline",
             "icon_class":"text-warning",
-            "title":"500+ UI elements",
-            "content":"Lots of UI elements and components gives you the power to build fully functional apps."
+            "title":"Fast App Load Speed",
+            "content":"In an age of real-time, if your new app doesn’t load within seconds, people will move on to the next one."
          }
       ]
   }

@@ -5,7 +5,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: '[contact]',
+  selector: '[softtelligent-contact]',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

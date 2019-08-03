@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { BlogsRoutes } from './blog.routing';
-import { WidgetsModule } from '../widgets/widgets.module';
+import { WidgetsModule } from '../../shared/widgets/widgets.module';
 
 import { BlogMasonary2Component } from './blogMasonry2/blogMasonry2.component';
 import { BlogMasonary3Component } from './blogMasonry3/blogMasonry3.component';

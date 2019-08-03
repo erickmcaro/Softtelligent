@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PageTitleService } from '../core/page-title/page-title.service';
-import { ChkService } from '../service/chk.service';
+import { PageTitleService } from '../../core/page-title/page-title.service';
+import { ChkService } from '../../core/service/chk.service';
 
 @Component({
   selector: 'about',

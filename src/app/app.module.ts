@@ -30,11 +30,28 @@ import { AboutComponent } from './modules/about/about.component';
 import { SearchComponent } from './modules/search/search.component';
 import { SupportComponent } from './modules/support/support.component';
 import { Footer2Component } from './shared/footer2/footer2.component';
+import { ThankYouComponent } from './shared/thankYou/thankYou.component';
+import { NotFoundComponent } from './shared/notFound/notFound.component';
 import { sidebarWidgetsComponent } from './shared/sidebarWidgets/sidebarWidgets.component';
+import {SignUpComponent} from './shared/signUp/signUp.component'
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+      MainComponent,
+      HomeComponent,
+      ContactComponent,
+      FooterComponent,
+      HeaderComponent,
+      MenuComponent,
+      FeaturesComponent,
+      AboutComponent,
+      SearchComponent,
+      SupportComponent,
+      Footer2Component,
+      sidebarWidgetsComponent,
+      ThankYouComponent,
+      NotFoundComponent,
+      SignUpComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +68,11 @@ import { sidebarWidgetsComponent } from './shared/sidebarWidgets/sidebarWidgets.
        apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
     })
   ],
-  providers: [],
+  providers: [
+    MenuItems,
+    PageTitleService,
+    ChkService
+ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
