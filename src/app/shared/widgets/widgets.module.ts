@@ -51,7 +51,7 @@ import { FooterLogoListComponent } from './footerLogoList/footerLogoList.compone
     ReactiveFormsModule,
     SlickModule.forRoot(),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
+      apiKey: 'AIzaSyC_qnFnyHm_E6V-lvkDhlJSE_yioTKFzJs'
     })
   ],
   declarations: [

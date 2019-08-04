@@ -65,7 +65,7 @@ import {SignUpComponent} from './shared/signUp/signUp.component'
     DirectivesModule,
     SlickModule.forRoot(),
     AgmCoreModule.forRoot({
-       apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
+       apiKey: 'AIzaSyC_qnFnyHm_E6V-lvkDhlJSE_yioTKFzJs'
     })
   ],
   providers: [
